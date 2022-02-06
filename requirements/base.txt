@@ -1,4 +1,4 @@
-Django==1.7.8
+Django==2.2.27
 psycopg2==2.6
 django-compressor>=1.4
 django-modelcluster>=0.4
@@ -6,4 +6,5 @@ wagtail>=0.8.7,<1.0
 django-taggit>=0.12.2
 django-libsass>=0.2
 libsass==0.8.2
-Pillow==2.8.1
+Pillow==9.0.0
+html5lib>=0.99999999 # not directly required, pinned by Snyk to avoid a vulnerability
